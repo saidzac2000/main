@@ -7,7 +7,10 @@ body{
     flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-color: black
+   background-color: black;
+   background: linear-gradient(to right, rgb(67, 124, 205), rgb(69, 214, 202));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 h1{
     color: white;
