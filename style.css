@@ -10,9 +10,10 @@ body{
    background-color: black;
 }
 h1{
+    color: white;
     background: linear-gradient(to right, rgb(67, 124, 205), rgb(69, 214, 202));
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 button{
     display: flex;
@@ -24,6 +25,21 @@ button{
     border-style: solid;
     border-image: linear-gradient(to right, rgb(67, 124, 205), rgb(69, 214, 202));
     border-image-slice: 1;
+    box-shadow: 0 0 5px 5px skyblue;
+}
+.first{
+    box-shadow: 0 0 5px 5px #ff39f5;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #ff39f5, rgb(255, 255, 255));
+    border-image-slice: 1;
+}
+.first a{
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(to right, #ff39f5, rgb(255, 255, 255));;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 a{
     font-weight: bold;
